@@ -1,0 +1,43 @@
+body{
+    display:flex;justify-content:center;align-items:center;
+    background:#fff;
+    flex-direction:column;
+    line-height:2rem;
+}
+.imgs img{
+    border-radius:999px;
+}
+.title{
+    text-align: center;
+    font-weight:bold;
+    font-size:2rem;
+    font-family:monospace;
+}
+
+.box{
+    border:2px solid #ccc;
+    min-width:100px;
+    box-shadow:1px 1px 2px rga(255,255,255);
+}
+
+
+.imgs_all{
+    display:grid;
+    grid-template-column:1fr 1fr 1fr ;
+}
+.imgs_all img{
+   width:900px;height:600px; 
+}
+
+.input{
+    margin:20px;
+    display:flex;justify-content:center;align-items:center;;
+}
+
+#search{
+    padding:10px; border-radius:20px;
+    background:transparent;
+    border:1px solid green;
+    outline:none;
+    color:#000;
+}
